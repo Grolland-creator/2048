@@ -1,58 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link type="Image/x-icon" href="./favicon.ico" rel="icon">
-  <title>2048</title>
-  <link rel="stylesheet" href="./style.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link type="Image/x-icon" href="./favicon.ico" rel="icon">
+   <title>2048</title>
+   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  <div class="numbers">
-    <h1 class="numbers__2048">2048</h1>
-    <div class="numbers__wrapper">
-      <div class="numbers__number">
-        <div class="numbers__score numbers__item">
-          <p class="numbers__score-text numbers__item-text">Score</p>
-          <div class="numbers__score-number numbers__item-number"></div>
-        </div>
-        <div class="numbers__best numbers__item">
-          <p class="numbers__best-text numbers__item-text">Best</p>
-          <div class="numbers__best-number numbers__item-number">0</div>
-        </div>
-        <div class="numbers__max numbers__item numbers__max-pc">
-          <p class="numbers__max-text numbers__item-text">Max number</p>
-          <div class="numbers__max-number numbers__item-number">0</div>
-        </div>
+   <div class="numbers">
+      <h1 class="numbers__2048">2048</h1>
+      <div class="numbers__wrapper">
+         <div class="numbers__number">
+            <div class="numbers__score numbers__item">
+               <p class="numbers__score-text numbers__item-text">Score</p>
+               <div class="numbers__score-number numbers__item-number"></div>
+            </div>
+            <div class="numbers__best numbers__item">
+               <p class="numbers__best-text numbers__item-text">Best</p>
+               <div class="numbers__best-number numbers__item-number">0</div>
+            </div>
+            <div class="numbers__max numbers__item numbers__max-pc">
+               <p class="numbers__max-text numbers__item-text">Max number</p>
+               <div class="numbers__max-number numbers__item-number">0</div>
+            </div>
+         </div>
+         <button class="numbers__new-game">New Game</button>
       </div>
-      <button class="numbers__new-game">New Game</button>
-    </div>
-  </div>
-  <div class="wrapper">
-    <div class="different">
-      <div class="different__text"><p>Play with</p> <p>other fields</p></div>
-      <div class="different__buttons active">
-        <button  class="different__button_8 different__button">8*8</button>
-        <button class="different__button_7 different__button">7*7</button>
-        <button class="different__button_6 different__button">6*6</button>
-        <button class="different__button_5 different__button">5*5</button>
-        <button class="different__button_4 different__button">4*4</button>
-        <button class="different__button_3 different__button">3*3</button>
+   </div>
+   <div class="wrapper">
+      <div class="different">
+         <div class="different__text">
+            <p>Play with</p>
+            <p>other fields</p>
+         </div>
+         <div class="different__buttons active">
+            <button class="different__button_8 different__button">8*8</button>
+            <button class="different__button_7 different__button">7*7</button>
+            <button class="different__button_6 different__button">6*6</button>
+            <button class="different__button_5 different__button">5*5</button>
+            <button class="different__button_4 different__button">4*4</button>
+            <button class="different__button_3 different__button">3*3</button>
+         </div>
       </div>
-    </div>
-    <div id="game-board">
-      <div class="game-over">
-        <h2 class="game-over__title">Game over!</h2>
-        <button class="game-over__tryAgain">Try again</button>
+      <div id="game-board">
+         <div class="game-over">
+            <h2 class="game-over__title">Game over!</h2>
+            <button class="game-over__tryAgain">Try again</button>
+         </div>
       </div>
-  </div>
-    
-  </div>
-  <div class="numbers__max numbers__item numbers__max-mobile">
-    <p class="numbers__max-text numbers__item-text">Max number</p>
-    <div class="numbers__max-number numbers__item-number numbers__max-number-mobile">0</div>
-  </div>
-  <script src="./script.js" type="module"></script>
+
+   </div>
+   <div class="numbers__max numbers__item numbers__max-mobile">
+      <p class="numbers__max-text numbers__item-text">Max number</p>
+      <div class="numbers__max-number numbers__item-number numbers__max-number-mobile">0</div>
+   </div>
+   <script src="./script.js" type="module"></script>
 </body>
+
 </html>
